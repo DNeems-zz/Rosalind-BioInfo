@@ -1,0 +1,13 @@
+>Rosalind_7816
+51.9693654267
+Time (n): 5
+Offspring Rate (k): 3
+Mature Rabbits: 7
+New Born Rabbits: 12
+Time (n): 5
+Offspring Rate (k): 3
+Mature Rabbits: 7
+New Born Rabbits: 12
+Total Rabbits: 19
+>Rosalind_7816
+51.9693654267

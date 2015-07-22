@@ -1,0 +1,4 @@
+# of Homozygous Dominant Parents (k): 16
+# of Heterozygous Parents (m): 18
+# of Homozygous Recessive Parents (n): 28
+Freqeuency of Dominant Phenotype: 64.6615547329

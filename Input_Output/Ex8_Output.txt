@@ -1,0 +1,15 @@
+Time (n): 5
+Offspring Rate (k): 3
+Mature Rabbits: 7
+New Born Rabbits: 12
+Total Rabbits: 19
+Time (n): 31
+Offspring Rate (k): 4
+Mature Rabbits: 436390025825
+New Born Rabbits: 681446713076
+Total Rabbits: 1117836738901
+Time (n): 31
+Offspring Rate (k): 4
+Mature Rabbits: 436390025825
+New Born Rabbits: 681446713076
+Total Rabbits: 1117836738901
