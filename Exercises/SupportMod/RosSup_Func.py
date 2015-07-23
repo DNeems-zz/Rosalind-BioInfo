@@ -41,6 +41,7 @@ def Transcribe(DNA):
 	return DNA.upper().replace('T','U')
 
 def ReverseComp(DNA):
+	from string import maketrans
 	return DNA[::-1].upper().translate(maketrans('ACGT', 'TGCA'))
 
 def Cross(*args):
