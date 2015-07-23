@@ -40,9 +40,8 @@ Rosalind_0808
 """
 
 import sys
-from RosSupFunc import FastaRead
-from RosSupFunc import FastaWrite
-from RosSupDict import DNA_AA_Dict
+from SupportMod.RosSup_Func import FastaRead
+from SupportMod.RosSup_Func import FastaWrite
 # Define a main() function that prints a little greeting.
 def main():
   [name,value]=FastaRead(sys.argv[1])

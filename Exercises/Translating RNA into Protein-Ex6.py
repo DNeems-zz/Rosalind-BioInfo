@@ -16,9 +16,9 @@ Return: The protein string encoded by s.
 """
 
 import sys
-from RosSupFunc import FastaRead
-from RosSupFunc import FastaWrite
-from RosSupDict import DNA_AA_Dict
+from SupportMod.RosSup_Func import FastaRead
+from SupportMod.RosSup_Func import FastaWrite
+from SupportMod.RosSup_Dict import DNA_AA_Dict
 # Define a main() function that prints a little greeting.
 def main():
   [name,value]=FastaRead(sys.argv[1])

@@ -19,8 +19,8 @@ GAUGGAACUUGACUACGUAAAUU
 """
 
 import sys
-from RosSupFunc import FastaRead
-from RosSupFunc import FastaWrite
+from SupportMod.RosSup_Func import FastaRead
+from SupportMod.RosSup_Func import FastaWrite
 
 # Define a main() function that prints a little greeting.
 def main():

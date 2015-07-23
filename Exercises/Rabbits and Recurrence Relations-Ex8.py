@@ -41,9 +41,6 @@ Sample Output:
 
 
 import sys
-from RosSupFunc import FastaRead
-from RosSupFunc import FastaWrite
-from RosSupDict import DNA_AA_Dict
 # Define a main() function that prints a little greeting.
 def main():
  [n,k]= (open(sys.argv[1]).readline().strip().split(' '))

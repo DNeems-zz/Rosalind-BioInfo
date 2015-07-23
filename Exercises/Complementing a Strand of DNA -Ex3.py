@@ -19,8 +19,8 @@ ACCGGGTTTT
 """
 
 import sys
-from RosSupFunc import FastaRead
-from RosSupFunc import FastaWrite
+from SupportMod.RosSup_Func import FastaRead
+from SupportMod.RosSup_Func import FastaWrite
 from string import maketrans
 
 # Define a main() function that prints a little greeting.
