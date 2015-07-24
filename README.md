@@ -1,5 +1,5 @@
 # Rosalind-BioInfo
-Solutions to the Problems presented in Rosalind Bioinformatic Stronghold (http://rosalind.info/problems/tree-view/)
+Solutions to the Problems presented in [Rosalind Bioinformatic Stronghold](http://rosalind.info/problems/tree-view/)
 * Exercise 1 Counting DNA Nucleotides
 * Exercise 2 Transcribing DNA into RNA
 * Exercise 3 Complementing a Strand of DNA
@@ -9,3 +9,5 @@ Solutions to the Problems presented in Rosalind Bioinformatic Stronghold (http:/
 * Exercise 7 Computing GC Content
 * Exercise 8 Rabbits and Recurrence Relations
 * Exercise 9 Mendel's First Law
+* Exercise 10 Location Restriction Sites
+* Exercise 11 Enumerating Gene Orders
