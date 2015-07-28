@@ -11,3 +11,4 @@ Solutions to the Problems presented in [Rosalind Bioinformatic Stronghold](http:
 * Exercise 9 Mendel's First Law
 * Exercise 10 Location Restriction Sites
 * Exercise 11 Enumerating Gene Orders
+* Exercise 12 Finding a Shared Motiff
