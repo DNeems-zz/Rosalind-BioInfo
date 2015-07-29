@@ -38,6 +38,7 @@ AC
 import sys
 from SupportMod.RosSup_Func import FastaRead
 from SupportMod.RosSup_Func import FastaWrite
+from SupportMod.keyboard import keyboard
 # Define a main() function that prints a little greeting.
 def SharedString(str1,str2,SharedLen=2):
    CommonSeq=['']

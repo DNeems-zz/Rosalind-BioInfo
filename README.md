@@ -12,3 +12,4 @@ Solutions to the Problems presented in [Rosalind Bioinformatic Stronghold](http:
 * Exercise 10 Location Restriction Sites
 * Exercise 11 Enumerating Gene Orders
 * Exercise 12 Finding a Shared Motiff
+* Exersice 13 RNA Splicing

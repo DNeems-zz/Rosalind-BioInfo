@@ -1,4 +1,6 @@
 import sys
+from SupportMod.RosSup_Dict import DNA_AA_Dict
+
 def FastaRead(filename):
   F=open(filename)
   Names=list()
@@ -43,6 +45,13 @@ def Transcribe(DNA):
 def ReverseComp(DNA):
 	from string import maketrans
 	return DNA[::-1].upper().translate(maketrans('ACGT', 'TGCA'))
+
+def Translate(DNA):
+	protein=[]
+	for pos in range(0,len(DNA),3):
+  	  protein.append(DNA_AA_Dict[DNA[pos:pos+3].lower().replace('u','t')])
+  	protein=''.join(protein)
+  	return protein
 
 def Cross(*args):
 	import itertools
