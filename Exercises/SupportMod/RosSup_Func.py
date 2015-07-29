@@ -13,7 +13,7 @@ def FastaRead(filename):
   		Values[-1]=Values[-1]+line.strip()
   return [Names,Values]
 
-def FastaWrite(Names,Values,filename='Default.txt',OutputSpace=True):
+def FastaWrite(Names,Values,filename='Default.txt',OutputSpace=True,OutputNewLine=False):
 	with open(filename, 'a') as f:
 		if type(Names)!=list:
 			Names=[Names]
@@ -27,10 +27,14 @@ def FastaWrite(Names,Values,filename='Default.txt',OutputSpace=True):
 		  if type(v)==str:
 				f.write(v+'\n')
 		  elif type(v)==list:
-		  	if OutputSpace:
+		  	if OutputNewLine==False:
+		  	  if OutputSpace:
 				f.write(' '.join([str(val) for val in v])+'\n')
+			  else:
+				f.write(''.join([str(val) for val in v])+'\n')
 			else:
-				f.write(''.join([str(val) for val in v])+'\n')				
+			  for val in v:
+			  	f.write(str(val) +'\n')				
 		  elif type(v)==int or type(v)==float:
 				f.write(str(v)+'\n')
 		f.close()
@@ -48,6 +52,8 @@ def ReverseComp(DNA):
 
 def Translate(DNA):
 	protein=[]
+	DNA=DNA[:(len(DNA)-len(DNA)%3)]
+	DNA=DNA+'end'
 	for pos in range(0,len(DNA),3):
   	  protein.append(DNA_AA_Dict[DNA[pos:pos+3].lower().replace('u','t')])
   	protein=''.join(protein)

@@ -13,7 +13,7 @@ DNA_AA_Dict = {     'ttt': 'F', 'tct': 'S', 'tat': 'Y', 'tgt': 'C',
              'gtt': 'V', 'gct': 'A', 'gat': 'D', 'ggt': 'G',
              'gtc': 'V', 'gcc': 'A', 'gac': 'D', 'ggc': 'G',
              'gta': 'V', 'gca': 'A', 'gaa': 'E', 'gga': 'G',
-             'gtg': 'V', 'gcg': 'A', 'gag': 'E', 'ggg': 'G'}
+             'gtg': 'V', 'gcg': 'A', 'gag': 'E', 'ggg': 'G','end':'*'}
 
 AA_3_1_Dict = {'CYS': 'C', 'ASP': 'D', 'SER': 'S', 'GLN': 'Q', 'LYS': 'K',
      'ILE': 'I', 'PRO': 'P', 'THR': 'T', 'PHE': 'F', 'ASN': 'N', 

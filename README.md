@@ -13,3 +13,4 @@ Solutions to the Problems presented in [Rosalind Bioinformatic Stronghold](http:
 * Exercise 11 Enumerating Gene Orders
 * Exercise 12 Finding a Shared Motiff
 * Exersice 13 RNA Splicing
+* Exersice 14 Open Reading Frames
