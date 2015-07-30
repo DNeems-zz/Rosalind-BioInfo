@@ -15,3 +15,4 @@ Solutions to the Problems presented in [Rosalind Bioinformatic Stronghold](http:
 * Exersice 13 RNA Splicing
 * Exersice 14 Open Reading Frames
 * Exercise 15 Consensus and Profile
+* Exercise 16 Finding a Protein Motif 

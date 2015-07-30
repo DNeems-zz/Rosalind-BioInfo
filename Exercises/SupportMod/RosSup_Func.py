@@ -1,8 +1,14 @@
 import sys
 from SupportMod.RosSup_Dict import DNA_AA_Dict
+import urllib2
+def FastaRead(filename,fromFile=True,fromUrl=False):
+  if fromUrl:
+  	fromFile=False
+  if fromFile:
+  	F=open(filename)
+  if fromUrl:
+  	F=urllib2.urlopen(filename)
 
-def FastaRead(filename):
-  F=open(filename)
   Names=list()
   Values=list()
   for line in F:
