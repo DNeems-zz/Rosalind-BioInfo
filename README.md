@@ -16,3 +16,6 @@ Solutions to the Problems presented in [Rosalind Bioinformatic Stronghold](http:
 * Exersice 14 Open Reading Frames
 * Exercise 15 Consensus and Profile
 * Exercise 16 Finding a Protein Motif 
+* Exercise 17 Overlap Graphs
+* Excersie 18 Calculating Protein Mass
+* Excersie 19 Independent Alleles
