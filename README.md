@@ -19,3 +19,5 @@ Solutions to the Problems presented in [Rosalind Bioinformatic Stronghold](http:
 * Exercise 17 Overlap Graphs
 * Excersie 18 Calculating Protein Mass
 * Excersie 19 Independent Alleles
+* Excersie 20 Inferring mRNA from Protein
+* Excersie 21 Mortal Fibonacci Rabbits

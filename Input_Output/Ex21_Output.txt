@@ -1,0 +1,3 @@
+Month of Trial (n): 93
+Lifespan (k): 16
+Rabbits at end of Trial:12006358557899958370
