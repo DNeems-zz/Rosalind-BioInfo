@@ -21,3 +21,6 @@ Solutions to the Problems presented in [Rosalind Bioinformatic Stronghold](http:
 * Excersie 19 Independent Alleles
 * Excersie 20 Inferring mRNA from Protein
 * Excersie 21 Mortal Fibonacci Rabbits
+* Excersie 22 Calculating Expected Offspring
+* Excersie 23 Enumerating Oriented Gene Orderings 
+* Excersie 24 Longest Increasing Subsequence

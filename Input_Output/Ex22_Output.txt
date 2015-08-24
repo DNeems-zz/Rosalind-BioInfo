@@ -1,0 +1,8 @@
+Genotype: Frequency
+AA-AA: 18908
+AA-Aa: 17933
+AA-aa: 19648
+Aa-Aa: 19243
+Aa-aa: 18237
+aa-aa: 17200
+Expected Number of  Dominant Phenotype: 160079.5
